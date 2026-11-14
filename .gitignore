@@ -1,0 +1,12 @@
+# 缓存
+__pycache__/
+*.py[cod]
+
+# 试排产物
+out/
+*.preview.pdf
+*_p[0-9][0-9].png
+
+# 单篇论文的中间文件不入库（避免把他人论文原文带进仓库）
+*.pdf
+!examples/*.pdf
